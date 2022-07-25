@@ -1,0 +1,313 @@
+
+/*RESET*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Cinzel;
+    src: url(../fonts/Cinzel-VariableFont_wght.ttf);
+}
+
+
+/*HEADER*/
+
+.fincaLaSeis {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+    "header" "header" "header"
+    "main" "main" "main"
+    "main" "main" "main"
+    "main" "main" "main"
+    "footer" "footer" "footer"
+    ;
+}
+
+header {
+    grid-area: header;
+    background-color: rgb(216, 228, 234);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    top:0;
+    position: sticky;
+}
+
+.titulo {
+    grid-area: titulo;
+    margin-right: 20px;
+    color: #3a727f;
+    font-size: 60px;
+    font-family: Cinzel;
+}
+
+.navBar ul {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navBar ul li {
+    list-style: none;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #3a727f;
+    font-family: Cinzel;
+}
+
+.navBar li a:hover {
+    background-color: #BDE5CE;
+}
+
+
+
+/*MAIN*/
+
+main {
+    grid-area: main;
+    background-image: url(../img/wine.jpg);
+    background-size: cover;
+}
+
+
+h2 {
+    font-family:Cinzel;
+    font-size: 40px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 15px;
+    text-align: center;
+    color: #BDE5CE;
+}
+
+
+
+.media {
+    display: flex;
+    align-items: flex-start;
+}
+
+.famatina {
+    grid-area: famatina;
+    height: 400px;
+    width: 600px;
+    padding: 30px 25px;
+}
+
+.media2 {
+    display: flex;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.media3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.vinoTorrontes {
+    grid-area: vinoTorrontes;
+    height: 400px;
+    width: 600px;
+    padding: 30px 25px;
+}
+
+.mainTextoUno {
+    grid-area: mainTextoUno;
+    font-family:Cinzel;
+    font-size: 25px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 15px;
+    text-align: center;
+    color: #BDE5CE;
+}
+
+
+.mainTextoDos {
+    grid-area: mainTextoDos;
+    display: flex;
+    font-family:Cinzel;
+    font-size: 20px;
+    padding: 30px 25px;
+    text-align:justify;
+    color: #BDE5CE;
+}
+
+.mainTextoTres {
+    grid-area: mainTextoTres;
+    display: flex;
+    font-family:Cinzel;
+    font-size: 20px;
+    padding: 30px 25px;
+    text-align:justify;
+    color: #BDE5CE;
+}
+
+
+h4 {
+    font-family:Cinzel;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #BDE5CE;
+    border-style: solid;
+}
+
+/*FORMULARIO*/
+
+.contenedor {
+    font-family:Cinzel;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    color: #BDE5CE;
+}
+
+.contenedorDos {
+    font-family:Cinzel;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #BDE5CE; 
+    padding-bottom: 50px;
+}
+
+
+form {
+    display: flex;
+    justify-content: center;
+    color: #BDE5CE;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+
+#Nombre {
+    width: 350px;
+}
+
+#Apellido {
+    width: 350px;
+}
+
+#Email {
+    width: 350px;
+}
+
+#Comentarios {
+    height: 100px;
+    width: 350px;
+}
+
+
+/*FOOTER*/
+
+footer {
+    grid-area: footer;
+    display: flex;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-color: rgb(216, 228, 234);
+    height: 100px;
+    padding: 0 15px;
+}
+
+.footer__contenido {
+    grid-area: footer__contenido;
+    margin-right: 20px;
+    color: #3a727f;
+    font-size: 15px;
+    font-family: Cinzel;
+}
+
+
+
+.img__footer {
+    grid-area: img__footer;
+    /*height: 60px;*/
+    width: 50px;
+    padding-top: 15px;
+    
+}
+
+.img__footer1 {
+    grid-area: img__footer1;
+    height: 60px;
+    width: 50px;
+    padding-top: 15px;
+}
+
+.img__footer2 {
+    grid-area: img__footer2;
+    height: 60px;
+    width: 50px;
+    padding-top: 15px;
+}
+
+.img__footer3 {
+    grid-area: img__footer3;
+    height: 60px;
+    width: 50px;
+    padding-top: 15px;
+}
+
+@media screen and (max-width: 768px) {
+
+
+    .titulo {
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+    }
+
+    .navBar ul li {
+        font-size: 15px;
+    }
+
+
+    .mainTextoUno {
+        font-size: 15px;
+    }
+
+    .mainTextoDos {
+        font-size: 15px;
+    }
+
+    .mainTextoTres {
+        font-size: 15px;
+    }
+
+    .media {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .media2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .media3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
