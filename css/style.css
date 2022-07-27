@@ -242,32 +242,11 @@ footer {
 
 .img__footer {
     grid-area: img__footer;
-    /*height: 60px;*/
-    width: 50px;
-    padding-top: 15px;
-    
-}
-
-.img__footer1 {
-    grid-area: img__footer1;
-    height: 60px;
     width: 50px;
     padding-top: 15px;
 }
 
-.img__footer2 {
-    grid-area: img__footer2;
-    height: 60px;
-    width: 50px;
-    padding-top: 15px;
-}
 
-.img__footer3 {
-    grid-area: img__footer3;
-    height: 60px;
-    width: 50px;
-    padding-top: 15px;
-}
 
 @media screen and (max-width: 768px) {
 
