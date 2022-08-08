@@ -1,15 +1,9 @@
 
 
 
-@media screen and (max-width: 432px) {
+    @media screen and (max-width: 432px) {
+        .navbar-brand {
+        display: none; }
+        .prueba {
+        background-image: none; } }
 
-    .titulo {
-        display: none;
-    }
-
-    .prueba {
-        background-image: none;
-    }
-
-
-}

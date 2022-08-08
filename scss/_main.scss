@@ -1,5 +1,5 @@
 .heroColor {
-    background-color: #f9ecd1;
+    background-color: $backColorHeroTxtCard;
 }
 
 
@@ -19,7 +19,7 @@
 .prueba {
     background-image: url(../img/barriles.jpg);
     background-size: cover;
-    color: #f9ecd1;
+    color: $backColorHeroTxtCard;
 }
 
 .customImg {
@@ -28,5 +28,11 @@
 }
 
 .cardColor {
-    background-color: #f9ecd1;
+    background-color: $backColorHeroTxtCard;
+}
+
+.imgSize {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
 }

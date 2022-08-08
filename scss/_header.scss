@@ -1,17 +1,19 @@
+
 .customHeader {
-    background-color: $backColorHeaderFooter;
-    font-family: Cinzel;
-    font-size: 20px;
+	background-color: #71cfc4;
+	font-size: 20px;
+    .logoFinca {
+		height: 200px;
+		width: 200px;
+	}
+	.botonesHeader {
+		&:hover {
+			background-color: #6fb1b4;
+			font-size: 23px;
+			border-radius: 23px;
+			padding: 10px 23px;
+			color: $backColorHeroTxtCard;
+		}
+	}
 }
 
-.customTitle {
-    display: flex;
-    justify-content: center;
-    color: #BDE5CE;
-}
-
-
-.logoFinca {
-    height: 200px;
-    width: 200px;
-}
