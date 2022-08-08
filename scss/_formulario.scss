@@ -1,0 +1,52 @@
+
+.tituloFormulario {
+    color: #BDE5CE;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+}
+
+.formularioDos {
+    height: 200px;
+    width: 250px;
+}
+
+.botonesFormulario {
+    margin-left: 25px;
+    background-color: $backColorHeaderFooter;
+}
+
+.formularioTxt {
+    width: 250px;
+}
+
+
+.contacto {
+    display: flex;
+    flex-direction: row;
+}
+
+.tituloMapa {
+    font-family:Cinzel;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #BDE5CE;
+    padding-top: 20px;
+}
+
+.marcoMapa {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    font-family: Cinzel;
+    color: #BDE5CE;
+
+}

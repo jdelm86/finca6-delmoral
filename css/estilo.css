@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: Cinzel;
+  src: url(../fonts/Cinzel-VariableFont_wght.ttf); }
+
+body {
+  font-family: Cinzel; }
+
+.customHeader {
+  background-color: #71cfc4;
+  font-size: 20px; }
+  .customHeader .logoFinca {
+    height: 200px;
+    width: 200px; }
+  .customHeader .botonesHeader:hover {
+    background-color: #6fb1b4;
+    font-size: 23px;
+    border-radius: 23px;
+    padding: 10px 23px;
+    color: #f9ecd1; }
+
+.heroColor {
+  background-color: #f9ecd1; }
+
+.mainPrincipales {
+  padding-bottom: 15px;
+  background-color: #274b58;
+  padding-top: 20px; }
+
+.mainContacto {
+  background-image: url(../img/wine.jpg);
+  background-size: cover;
+  padding-bottom: 15px; }
+
+.prueba {
+  background-image: url(../img/barriles.jpg);
+  background-size: cover;
+  color: #f9ecd1; }
+
+.customImg {
+  height: 300px;
+  width: 600px; }
+
+.cardColor {
+  background-color: #f9ecd1; }
+
+.imgSize {
+  height: 400px;
+  width: 100%;
+  object-fit: cover; }
+
+.tituloFormulario {
+  color: #BDE5CE;
+  font-size: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px; }
+
+.formularioDos {
+  height: 200px;
+  width: 250px; }
+
+.botonesFormulario {
+  margin-left: 25px;
+  background-color: #71cfc4; }
+
+.formularioTxt {
+  width: 250px; }
+
+.contacto {
+  display: flex;
+  flex-direction: row; }
+
+.tituloMapa {
+  font-family: Cinzel;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #BDE5CE;
+  padding-top: 20px; }
+
+.marcoMapa {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+  font-family: Cinzel;
+  color: #BDE5CE; }
+
+.img__footer {
+  width: 50px;
+  padding-top: 15px; }
+
+.customFooter {
+  background-color: #71cfc4;
+  font-family: Cinzel;
+  font-size: 20px; }
+
+.imgFooter {
+  width: 50px;
+  padding-top: 15px; }
+
+@media screen and (max-width: 432px) {
+  .navbar-brand {
+    display: none; }
+  .prueba {
+    background-image: none; } }
