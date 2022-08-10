@@ -1,0 +1,9 @@
+
+@mixin parametros ($ancho, $largo) {
+    width: $ancho ;
+    height: $largo;
+}
+
+.formularioDos {
+    @include parametros (250px, 200px);
+}

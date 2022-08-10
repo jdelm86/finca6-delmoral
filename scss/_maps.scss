@@ -1,0 +1,10 @@
+
+$estilo: (background-color: $colorBackground, paddingB: 15px, paddingT: 20px);
+
+
+
+.mainPrincipales {
+    background-color: map-get($map: $estilo, $key: background-color);
+    padding-bottom:  map-get($map: $estilo, $key: paddingB );
+    padding-top: map-get($map: $estilo, $key: paddingT );
+}

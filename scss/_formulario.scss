@@ -12,10 +12,10 @@
     padding-left: 25px;
 }
 
-.formularioDos {
-    height: 200px;
-    width: 250px;
-}
+// .formularioDos {
+//     height: 200px;
+//     width: 250px;
+// }
 
 .botonesFormulario {
     margin-left: 25px;
@@ -27,11 +27,6 @@
 }
 
 
-.contacto {
-    display: flex;
-    flex-direction: row;
-}
-
 .tituloMapa {
     font-family:Cinzel;
     display: flex;
@@ -42,11 +37,11 @@
 }
 
 .marcoMapa {
+    font-family: Cinzel;
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 20px;
-    font-family: Cinzel;
     color: #BDE5CE;
+    margin-bottom: 20px;
 
 }
