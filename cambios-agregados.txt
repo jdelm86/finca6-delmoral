@@ -1,0 +1,8 @@
+
+-borradas imagenes en desuso 
+-comprimidas imagenes utilizadas con tiny.jpg
+-agregados <titles> en todas las paginas con mejor formato
+-agregadas <meta description y content> de todas las paginas
+-agregado _mixin para una clase e importado a estilo.scss
+-agregado _extend para una clase e importado a estilo.scss
+-agregado _map y uso de map get para una clase e importado a estilo.scss  
