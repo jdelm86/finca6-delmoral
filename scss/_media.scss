@@ -5,5 +5,8 @@
         .navbar-brand {
         display: none; }
         .prueba {
-        background-image: none; } }
+        background-image: none; }
+        .backCo {
+        background-color: $colorBackground;
+        color: $backColorHeroTxtCard;} }
 

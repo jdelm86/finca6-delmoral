@@ -6,3 +6,11 @@
 -agregado _mixin para una clase e importado a estilo.scss
 -agregado _extend para una clase e importado a estilo.scss
 -agregado _map y uso de map get para una clase e importado a estilo.scss  
+
+// Tercera Entrga del Proyecto Final 15/08/22 //
+
+-agregadas animaciones "Flip" a paginas "Nuestras Aceitunas" con estilo SCSS de http://www.imagehover.io
+-agregadas partials: _imghvr-flip.scss, _animaciones.scss y _variables.scss para el correcto funcionamiento de las animaciones
+-agregados nuevos productos y Cards en pagina "Experiencias y Catas"
+-agregadas background-color con opacidad para la correcta lectura de algunos textos
+-agregadas nuevas imagenes para "Nuestras Aceitunas", "Experiencias y Catas"  

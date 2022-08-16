@@ -2,11 +2,19 @@
 .prueba {
     background-image: url(../img/barriles.jpg);
     background-size: cover;
-    color: $backColorHeroTxtCard;
+    color: black;
 }
 
 .pruebaDos {
     @extend .prueba;
     background-image: url(../img/olives2.jpg);
-    color: black;
+}
+
+.pruebaTres {
+    @extend .pruebaDos;
+    background-image: url(../img/combi4.jpg);
+}
+
+.mainPrincipalesDos {
+    @extend .mainPrincipales;
 }
