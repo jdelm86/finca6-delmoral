@@ -52,11 +52,12 @@
 
 
 <main class="container-fluid mainContacto">
+<div class="formularioContacto rounded">
+    <div>
+        <h2 class="tituloFormulario">Contáctate con Nosotros!</h2>
+    </div>
+    <form class="mb-3 formulario">
     <div class="mb-3 formulario">
-        <form>
-            <fieldset>
-
-                <h2 class="tituloFormulario">Contáctate con Nosotros!</h2>
                 <input type="text" class="form-control-sm formularioTxt" id="exampleFormControlInput1" placeholder="Nombre">
             </div>
             <div class="mb-3 formulario">
@@ -71,24 +72,30 @@
             <div class="mb-3 formulario">
                 <textarea class="form-control-sm formularioDos" id="exampleFormControlTextarea1" rows="3" placeholder="Comentarios"></textarea>
             </div>
-            <input class="btn btn-secondary botonesFormulario" type="submit" value="Enviar">
-            <input class="btn btn-secondary botonesFormulario" type="reset" value="Borrar">
-            </fieldset>
+            <div>
+                <input class="btn botonesFormulario" type="submit" value="Enviar">
+                <input class="btn botonesFormulario" type="reset" value="Borrar">
+            </div>
             </form>
+        </div>
+
         
         <!-- GOOGLE MAPS -->
-    <div>
-        <h2 class="tituloMapa">¿Donde Encontrarnos?</h2>
+        <div class="formularioContacto rounded">
+            <div class="tituloMapa">
+                <h2>¿Donde Encontrarnos?</h2>
+            </div>
+            <div class="marcoMapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13927.873067662862!2d-67.4326399!3d-29.2244879!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xeafdb121d2874c8d!2sFincas%20Riojanas%20SA!5e0!3m2!1ses-419!2sar!4v1655910146840!5m2!1ses-419!2sar"
+                width="300"
+                height="250"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" frameborder="0"></iframe>
+            </div>
+
         </div>
-        <div class="marcoMapa">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13927.873067662862!2d-67.4326399!3d-29.2244879!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xeafdb121d2874c8d!2sFincas%20Riojanas%20SA!5e0!3m2!1ses-419!2sar!4v1655910146840!5m2!1ses-419!2sar"
-        width="300"
-        height="250"
-        style="border: 0"
-        allowfullscreen=""
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade" frameborder="0"></iframe>
-    </div>
 </main>
 
 
@@ -121,12 +128,7 @@
                 </div>
                 </footer>
             </div>
-        </footer>
-
-
-
-
-
+        </div>
 
     <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>

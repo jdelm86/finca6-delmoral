@@ -13,4 +13,11 @@
 -agregadas partials: _imghvr-flip.scss, _animaciones.scss y _variables.scss para el correcto funcionamiento de las animaciones
 -agregados nuevos productos y Cards en pagina "Experiencias y Catas"
 -agregadas background-color con opacidad para la correcta lectura de algunos textos
--agregadas nuevas imagenes para "Nuestras Aceitunas", "Experiencias y Catas"  
+-agregadas nuevas imagenes para "Nuestras Aceitunas", "Experiencias y Catas" 
+
+// Entrega Proyecto Final //
+
+-corregidos enlaces en header index eliminados los ./
+-cambios en page/contacto para que el formulario resalte
+-agregados malbec y cabernet en vinos
+-corregidas separacion de cards en vistas menores a 432px

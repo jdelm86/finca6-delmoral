@@ -1,20 +1,24 @@
 
 .tituloFormulario {
-    color: #BDE5CE;
+    color: $formColor;
     font-size: 30px;
     margin-top: 15px;
     margin-bottom: 15px;
 }
 
-.formulario {
+
+
+.formularioContacto {
+    background-color: $backColorHeroTxtCard;
     display: flex;
     flex-direction: column;
-    padding-left: 25px;
+    align-items: center;
+    margin-top: 10px;
 }
 
 
 .botonesFormulario {
-    margin-left: 25px;
+    margin-bottom: 15px;
     background-color: $backColorHeaderFooter;
 }
 
@@ -24,20 +28,18 @@
 
 
 .tituloMapa {
-    font-family:Cinzel;
     display: flex;
     align-items: center;
     flex-direction: column;
-    color: #BDE5CE;
+    color: $formColor;
     padding-top: 20px;
 }
 
 .marcoMapa {
-    font-family: Cinzel;
     display: flex;
     align-items: center;
     flex-direction: column;
-    color: #BDE5CE;
+    color: $backColorHeroTxtCard;
     margin-bottom: 20px;
 
 }

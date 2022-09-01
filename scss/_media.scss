@@ -8,5 +8,16 @@
         background-image: none; }
         .backCo {
         background-color: $colorBackground;
-        color: $backColorHeroTxtCard;} }
+        color: $backColorHeroTxtCard;}
+        .cardColor {
+        margin-bottom: 15px;}}
+//ver tema @media para ahorrar codigo// 
+
+        @media screen and (max-width: 820px) {
+            .cardColor {
+                margin-bottom: 15px;}}
+
+                @media screen and (max-width: 1200px) {
+                    .cardColor {
+                        margin-bottom: 15px;}}
 

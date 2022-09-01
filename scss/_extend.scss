@@ -1,5 +1,8 @@
 
 .prueba {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-image: url(../img/barriles.jpg);
     background-size: cover;
     color: black;
@@ -15,6 +18,17 @@
     background-image: url(../img/combi4.jpg);
 }
 
+.pruebaCuatro {
+    @extend .prueba;
+    background-image: url(../img/vinedo.jpg);
+}
+
+.pruebaCinco {
+    @extend .prueba;
+    background-image: url(../img/telefono.jpg);
+}
+
 .mainPrincipalesDos {
     @extend .mainPrincipales;
 }
+
