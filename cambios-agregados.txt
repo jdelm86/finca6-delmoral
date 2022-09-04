@@ -21,3 +21,7 @@
 -cambios en page/contacto para que el formulario resalte
 -agregados malbec y cabernet en vinos
 -corregidas separacion de cards en vistas menores a 432px
+-borrado partial "_flip" y agregado su contenido en "_animaciones"
+-corregidos textos en "cards" y "mains" de las "pages"
+-imagenes convertidas a formato .webp para mejor rendimiento de la pagina web.
+

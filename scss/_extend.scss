@@ -3,30 +3,26 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(../img/barriles.jpg);
+    background-image: url(../img/barriles.webp);
     background-size: cover;
     color: black;
 }
 
 .pruebaDos {
     @extend .prueba;
-    background-image: url(../img/olives2.jpg);
+    background-image: url(../img/olives2.webp);
 }
 
 .pruebaTres {
     @extend .pruebaDos;
-    background-image: url(../img/combi4.jpg);
+    background-image: url(../img/combi4.webp);
 }
 
 .pruebaCuatro {
     @extend .prueba;
-    background-image: url(../img/vinedo.jpg);
+    background-image: url(../img/vinedo.webp);
 }
 
-.pruebaCinco {
-    @extend .prueba;
-    background-image: url(../img/telefono.jpg);
-}
 
 .mainPrincipalesDos {
     @extend .mainPrincipales;

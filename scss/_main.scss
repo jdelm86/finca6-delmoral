@@ -7,6 +7,11 @@ h3 {
     text-decoration: underline;
 }
 
+.letra {
+    letter-spacing: 2px;
+    margin-bottom: 1px;
+}
+
 
 .mainContacto {
     background-color: $colorBackground;
@@ -20,6 +25,7 @@ h3 {
     background-color: $backColorHeroTxtCard;
     opacity: 75%;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .customImg {

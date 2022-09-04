@@ -27,31 +27,32 @@ body {
   padding-bottom: 15px;
   padding-top: 20px; }
 
-.prueba, .pruebaDos, .pruebaTres, .pruebaCuatro, .pruebaCinco {
+.prueba, .pruebaDos, .pruebaTres, .pruebaCuatro {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(../img/barriles.jpg);
+  background-image: url(../img/barriles.webp);
   background-size: cover;
   color: black; }
 
 .pruebaDos, .pruebaTres {
-  background-image: url(../img/olives2.jpg); }
+  background-image: url(../img/olives2.webp); }
 
 .pruebaTres {
-  background-image: url(../img/combi4.jpg); }
+  background-image: url(../img/combi4.webp); }
 
 .pruebaCuatro {
-  background-image: url(../img/vinedo.jpg); }
-
-.pruebaCinco {
-  background-image: url(../img/telefono.jpg); }
+  background-image: url(../img/vinedo.webp); }
 
 .heroColor {
   background-color: #f9ecd1; }
 
 h3 {
   text-decoration: underline; }
+
+.letra {
+  letter-spacing: 2px;
+  margin-bottom: 1px; }
 
 .mainContacto {
   background-color: #274b58;
@@ -61,7 +62,8 @@ h3 {
 .backCo {
   background-color: #f9ecd1;
   opacity: 75%;
-  text-align: center; }
+  text-align: center;
+  text-transform: uppercase; }
 
 .customImg {
   height: 300px;
@@ -100,7 +102,9 @@ h3 {
   background-color: #71cfc4; }
 
 .formularioTxt {
-  width: 250px; }
+  width: 250px;
+  border-style: solid;
+  border-color: black; }
 
 .tituloMapa {
   display: flex;
@@ -245,7 +249,7 @@ h3 {
 @media screen and (max-width: 432px) {
   .navbar-brand {
     display: none; }
-  .prueba, .pruebaDos, .pruebaTres, .pruebaCuatro, .pruebaCinco {
+  .prueba, .pruebaDos, .pruebaTres, .pruebaCuatro {
     background-image: none; }
   .backCo {
     background-color: #274b58;
